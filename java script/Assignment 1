@@ -1,0 +1,66 @@
+//for and While loop Assignments
+//Assignment no 1-1 to 10 While
+let a=1
+while(a<=10){
+    console.log(1)
+    a=a+1
+}
+//Assignment no 2 -10 to 1 While
+let b=10
+while(b>=1){
+    console.log(b)
+    b=b-1
+}
+//Assignment no 3 - 5 to 15 for
+//5,6,7,8....15
+for(let i=5; i<=15; i=i+1){
+    console.log(i)
+
+}
+//Assignmet no 5 - 1 to 10 even number while
+let c=2
+while(c<=10){
+    console.log(c)
+    c=c+2
+}
+//Assignment no 6 - 1 to 10 odd number for
+for(let k=1; k<=10; k=k+2){
+    console.log(k)
+}
+//Assignmet no 7 and 8 - first 10 multiple values of 4
+let d=0
+while(d<=40){
+    console.log(d)
+    d=d+4
+}
+//Assigment no 9 - Multiplication table for number 6
+let e=1
+while(<=10){
+    console.log("6*",e,"=",e*6)
+    e=e+1
+}
+//Assignment no 10 - Factors of 24 While
+var y=1
+while(y<=24){
+    if(24%y==0)
+    console.log(y)
+    y=y+1
+}
+//Assignment no 10 - Factors of 24 forloop
+for(var l=1; l<=24; l=l+1){
+    if(24%l==0)
+    console.log(1)
+}
+//Assignment no 12
+
+//Assignment no 13
+
+//Assignment no 14 Fibonacci
+let n1=0;
+let n2=1;
+for(let i=1; i<=10; i++){
+    console.log(n1)
+    n3=n1+n2
+    n1=n2
+    n2=n3
+}
