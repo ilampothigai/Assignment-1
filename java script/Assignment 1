@@ -35,7 +35,7 @@ while(d<=40){
 }
 //Assigment no 9 - Multiplication table for number 6
 let e=1
-while(<=10){
+while(e<=10){
     console.log("6*",e,"=",e*6)
     e=e+1
 }
