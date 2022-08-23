@@ -8,16 +8,15 @@ function form_Validate() {
 
     let email = document.getElementById('eemail').value;
     if (email == "") {
-        document.getElementById('eemail_Message').innerHTML = "Pleae Enter Email Id"
+        document.getElementById('eemail').innerHTML = "Pleae Enter Email Id"
     //alert("pls Enter Email Id")
     }
 
-    let Mobilenumber=document.getElementById('eaddress').value;
-    if(Mobilenumber =="") {
-        document.getElementById('emobilenumber').innerHTML="Please Enter Mobile Number"
-        //alert("pls Enter Mobile Number")
-    }
-
+    let MobileNumber = document.getElementById('adrdress').value;
+    if (name == "" && name.length <= 4) {
+        document.getElementById('address_Message').innerHTML = "Please Enter address"
+        //alert("Pls Enter address")
 
     return false
+}
 }
