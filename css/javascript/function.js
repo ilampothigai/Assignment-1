@@ -1,7 +1,7 @@
 function form_Validate() {
     let name = document.getElementById('ename').value
     //alert(name)
-    if (name == "" && name.length <= 5) {
+    if (name == "" && name.length <= 0) {
         document.getElementById('ename_Message').innerHTML = "Please Enter User Name"
         //alert("Pls Enter Name")
     }
@@ -12,11 +12,11 @@ function form_Validate() {
     //alert("pls Enter Email Id")
     }
 
-    let MobileNumber = document.getElementById('adrdress').value;
-    if (name == "" && name.length <= 4) {
-        document.getElementById('address_Message').innerHTML = "Please Enter address"
-        //alert("Pls Enter address")
+    let address = document.getElementById('eaddress').value;
+    if (address == "" && address.length<=0) {
+        document.getElementById('span3').innerHTML = "Pleae Enter Email Id"
+    //alert("pls Enter Email Id")
+    }
 
-    return false
-}
+
 }
